@@ -71,7 +71,5 @@ Para probar la herramienta y generar tu propia aplicación web:
 
 ## ✒️ Autor
 
-* **[Tu Nombre]** - *Ingeniería del Proceso Software* - [Tu perfil de GitHub](https://github.com/tu-usuario)
+* **[Roberto]** - *Ingeniería del Proceso Software* - [Mi perfil](https://github.com/roberr17)
 
----
-*Proyecto desarrollado como parte de la asignatura de Ingeniería del Proceso Software y Construcción (IPS).*
