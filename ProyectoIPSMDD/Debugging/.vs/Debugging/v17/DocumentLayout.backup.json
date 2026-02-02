@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProyectoIPSMDD\\Debugging\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|c:\\proyectoipsmdd\\debugging\\informepolonortevariosficheros.tt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|solutionrelative:informepolonortevariosficheros.tt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|c:\\proyectoipsmdd\\debugging\\papanoel.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|solutionrelative:papanoel.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|c:\\proyectoipsmdd\\debugging\\fabrica.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|solutionrelative:fabrica.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|c:\\proyectoipsmdd\\debugging\\informepolonorte.tt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|solutionrelative:informepolonorte.tt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|c:\\proyectoipsmdd\\debugging\\informepolonorte.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|solutionrelative:informepolonorte.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|c:\\proyectoipsmdd\\debugging\\centralpolonorte.anhammdrm||{D2FA8704-54F5-400C-960B-A2EA0871C66B}|",
+      "RelativeMoniker": "D:0:0:{75B70B84-CE6D-4214-A1CE-C852D4FF5240}|Debugging.csproj|solutionrelative:centralpolonorte.anhammdrm||{D2FA8704-54F5-400C-960B-A2EA0871C66B}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fabrica.php",
+              "DocumentMoniker": "C:\\ProyectoIPSMDD\\Debugging\\Fabrica.php",
+              "RelativeDocumentMoniker": "Fabrica.php",
+              "ToolTip": "C:\\ProyectoIPSMDD\\Debugging\\Fabrica.php",
+              "RelativeToolTip": "Fabrica.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T19:58:32.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CentralPoloNorte.ANHAMMDRM",
+              "DocumentMoniker": "C:\\ProyectoIPSMDD\\Debugging\\CentralPoloNorte.ANHAMMDRM",
+              "RelativeDocumentMoniker": "CentralPoloNorte.ANHAMMDRM",
+              "ToolTip": "C:\\ProyectoIPSMDD\\Debugging\\CentralPoloNorte.ANHAMMDRM",
+              "RelativeToolTip": "CentralPoloNorte.ANHAMMDRM",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T19:50:56.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PapaNoel.php",
+              "DocumentMoniker": "C:\\ProyectoIPSMDD\\Debugging\\PapaNoel.php",
+              "RelativeDocumentMoniker": "PapaNoel.php",
+              "ToolTip": "C:\\ProyectoIPSMDD\\Debugging\\PapaNoel.php",
+              "RelativeToolTip": "PapaNoel.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T19:24:30.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InformePoloNorteVariosFicheros.tt",
+              "DocumentMoniker": "C:\\ProyectoIPSMDD\\Debugging\\InformePoloNorteVariosFicheros.tt",
+              "RelativeDocumentMoniker": "InformePoloNorteVariosFicheros.tt",
+              "ToolTip": "C:\\ProyectoIPSMDD\\Debugging\\InformePoloNorteVariosFicheros.tt",
+              "RelativeToolTip": "InformePoloNorteVariosFicheros.tt",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-17T19:24:19.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InformePoloNorte.txt",
+              "DocumentMoniker": "C:\\ProyectoIPSMDD\\Debugging\\InformePoloNorte.txt",
+              "RelativeDocumentMoniker": "InformePoloNorte.txt",
+              "ToolTip": "C:\\ProyectoIPSMDD\\Debugging\\InformePoloNorte.txt",
+              "RelativeToolTip": "InformePoloNorte.txt",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-17T19:23:29.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InformePoloNorte.tt",
+              "DocumentMoniker": "C:\\ProyectoIPSMDD\\Debugging\\InformePoloNorte.tt",
+              "RelativeDocumentMoniker": "InformePoloNorte.tt",
+              "ToolTip": "C:\\ProyectoIPSMDD\\Debugging\\InformePoloNorte.tt",
+              "RelativeToolTip": "InformePoloNorte.tt",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-17T19:23:24.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProyectoIPSMDD\\Dsl\\Dsl.csproj": {}
+  },
+  "projects": {
+    "C:\\ProyectoIPSMDD\\Dsl\\Dsl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoIPSMDD\\Dsl\\Dsl.csproj",
+        "projectName": "IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Dsl",
+        "projectPath": "C:\\ProyectoIPSMDD\\Dsl\\Dsl.csproj",
+        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoIPSMDD\\Dsl\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Modeling.Sdk": {
+              "target": "Package",
+              "version": "[17.0.*-*, )"
+            },
+            "Microsoft.VisualStudio.Modeling.Sdk.Diagrams": {
+              "target": "Package",
+              "version": "[17.0.*-*, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating": {
+              "target": "Package",
+              "version": "[17.0.*-*, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating.Interfaces.10.0": {
+              "target": "Package",
+              "version": "[17.0.*-*, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating.Interfaces.11.0": {
+              "target": "Package",
+              "version": "[17.0.*-*, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating.Modeling": {
+              "target": "Package",
+              "version": "[17.0.*-*, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

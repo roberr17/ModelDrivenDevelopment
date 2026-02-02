@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tapiz xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8fd3e7cf-a08b-4482-8432-b789d17240bb" xmlns="http://schemas.microsoft.com/dsltools/ANHAMMDRMLenguaje">
+  <entidad>
+    <tapizHasEntidad Id="bd841370-fed6-4efa-a13f-2821b59017d3">
+      <entidad Id="0d792383-c2eb-4724-8526-e8d3d66734a3" nombreEntidad="PapaNoel">
+        <clave>
+          <entidadHasClave Id="3f7cb992-57d2-4968-a4fe-c2dbd19a6c31">
+            <clave Id="66208759-cdb5-4514-b749-010e10f687e5" nombreAtributo="IDClon" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="75060c81-7e7a-4f6b-94c2-a01cab73fdb7">
+            <atributoEntidad Id="6f2319bd-30e8-49b8-88a0-5e2972a4bf36" nombreAtributo="Edad" longitud="0" tipoDatos="Entero" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="d3fd13f0-060c-4e96-a539-96ce130857e7">
+            <atributoEntidad Id="762fbbe3-1f54-4b2d-92fd-9aee0d54915a" nombreAtributo="Residencia" longitud="12" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="a25fc53c-ab9b-4518-83da-3364d72c93b9" cardinalidadIMin="Uno" cardinalidadIMax="N">
+            <relacionMoniker Id="1cade0c3-bf29-43c4-b6bb-73afdcb56623" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="490dd362-34e1-47be-a800-4743dc1ffeb7" cardinalidadDMin="Uno" cardinalidadDMax="N">
+            <relacionMoniker Id="ab3bbd37-ef77-4099-bb5d-8fa2f1ea9d64" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="93627961-fb73-4055-9355-3e37e6cad5ed">
+      <entidad Id="5b2d085b-ddfa-4e29-975c-2e23ab4354c6" nombreEntidad="Reno">
+        <clave>
+          <entidadHasClave Id="b810e782-ac25-4d9e-b56b-09854594456e">
+            <clave Id="1f8334ab-8008-4c3b-bbc8-85317014ca09" nombreAtributo="IDReno" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="f91969d8-a06b-492b-8cf8-26087a5fc5a6">
+            <atributoEntidad Id="a8e3c9a0-2cb2-4747-839a-6fc88c626df5" nombreAtributo="Nombre" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="ec0d2652-efaf-43a0-9e4c-b858959d7209">
+            <atributoEntidad Id="9c0b7402-ce86-425a-b098-53a1ac810c50" nombreAtributo="Posicion" longitud="0" tipoDatos="Entero" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="94b7a2e8-0f58-4167-a15e-c96c3cd19eb0">
+            <atributoEntidad Id="1bad7205-adca-41fa-abf5-3c63bac271e7" nombreAtributo="ComidaFavorita" longitud="255" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="d1a841ce-600c-4df0-9ffb-1558a2ec9beb" cardinalidadIMin="Cero" cardinalidadIMax="N">
+            <relacionMoniker Id="39b03ba7-565b-4e98-bd26-31f29a6743d0" />
+          </entidadReferencesRelacionedI>
+          <entidadReferencesRelacionedI Id="0e127d6a-c4c8-460e-bd77-e4d8b305dbb2" cardinalidadIMin="Uno" cardinalidadIMax="N">
+            <relacionMoniker Id="ab3bbd37-ef77-4099-bb5d-8fa2f1ea9d64" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="33348eaa-71ed-40f4-9e81-98041678c766">
+      <entidad Id="f7e3f693-d304-4c22-b4fa-19669aae1a57" nombreEntidad="Trineo">
+        <clave>
+          <entidadHasClave Id="ab65aaef-1efd-4d20-a393-6e7be6a29131">
+            <clave Id="81eb6ee5-9299-4db0-b340-79a1b4413f34" nombreAtributo="IDTrineo" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="e130fa73-032a-46b1-b338-353a433fa96e">
+            <atributoEntidad Id="86c99779-cc36-45bc-865d-9763bb8ff5b8" nombreAtributo="Color" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="5b735496-4604-4a01-a971-6072ddd911cb">
+            <atributoEntidad Id="e4d16b59-c56e-47f7-b136-1e0d1c540d62" nombreAtributo="Capacidad" longitud="0" tipoDatos="Entero" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="d2a92e80-f899-413c-9e36-0cb0024b4944" cardinalidadIMin="Cero" cardinalidadIMax="N">
+            <relacionMoniker Id="79d7196c-0ca3-4ff8-b364-6ad32e121dc2" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="571f7554-377b-4b48-9b34-6fc8e6844ea0" cardinalidadDMin="Cero" cardinalidadDMax="N">
+            <relacionMoniker Id="1cade0c3-bf29-43c4-b6bb-73afdcb56623" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="c9660670-8677-4ace-ab50-9a6f1f61d703">
+      <entidad Id="f7daa215-f7b8-4fb0-bc45-438402b74d00" nombreEntidad="Yeti">
+        <clave>
+          <entidadHasClave Id="ae1f8b13-20dd-490d-a6a1-62ae6ad83abb">
+            <clave Id="2414755e-bd17-43e9-8f98-d1f57d818350" nombreAtributo="IDYeti" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="3c52ee3d-eee4-4df4-9078-abbc6777cce7">
+            <atributoEntidad Id="405bbcb2-002c-40ae-891d-bfd2e5aa450d" nombreAtributo="Nombre" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="aac4a04c-fa12-44d3-9454-f8fbcc23e9d4">
+            <atributoEntidad Id="4fb259d5-82fb-4bee-b804-4bcd78ad4078" nombreAtributo="Ocupacion" longitud="256" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="16eca824-735d-4f42-9e5e-28886b84e66c" cardinalidadDMin="Cero" cardinalidadDMax="N">
+            <relacionMoniker Id="79d7196c-0ca3-4ff8-b364-6ad32e121dc2" />
+          </entidadReferencesRelacionedD>
+          <entidadReferencesRelacionedD Id="8d61e43c-293d-4cee-9d79-54f2b02eb1fc" cardinalidadDMin="Uno" cardinalidadDMax="N">
+            <relacionMoniker Id="fcc76b1f-d0f8-4ca7-91c1-80c96505c00c" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="be034a7d-0a69-4335-a27c-9fe72b6c0804">
+      <entidad Id="7e460045-0843-43ee-80ec-364abd25dac7" nombreEntidad="Elfo">
+        <clave>
+          <entidadHasClave Id="ae4c2181-1706-4158-bc5f-f8ea704535bb">
+            <clave Id="60e1b260-91ef-45cc-bbbd-a784f33cf5c0" nombreAtributo="IDElfo" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="651a01a8-fb8e-4a74-bd4a-79b2d74ef920">
+            <atributoEntidad Id="442cbfcb-6c40-4ba4-8d8b-dab80a9ec83b" nombreAtributo="ColorUniforme" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="c54d4182-b666-4ff6-8f0d-e4d7d9fef586">
+            <atributoEntidad Id="1e6844eb-2cdf-468d-a379-5db7ef69dde1" nombreAtributo="Nombre" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="85ab2ca0-c81d-4563-9e8d-6f11eb1aacb0" cardinalidadIMin="Uno" cardinalidadIMax="N">
+            <relacionMoniker Id="fbe5a0cf-ab50-4fec-882d-81c015a8df1d" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="dc7a3800-c530-46e8-9970-2c3fd0e0f857" cardinalidadDMin="Uno" cardinalidadDMax="N">
+            <relacionMoniker Id="39b03ba7-565b-4e98-bd26-31f29a6743d0" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="7759601e-75da-439f-af1c-e63025304b5a">
+      <entidad Id="50a6ed78-9aba-4fbe-bc92-8c38f024f930" nombreEntidad="Regalos">
+        <clave>
+          <entidadHasClave Id="21e1e9c4-f994-4dc5-984e-4fa32b564745">
+            <clave Id="74300e67-cf71-449f-ab40-a28b9d9b352a" nombreAtributo="IDRegalo" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="a6dd4f20-817d-4af5-a9ae-c80a1e9c796f">
+            <atributoEntidad Id="6d9f5584-ad29-49a0-968a-71bdee9c3165" nombreAtributo="TipoCaja" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="61e6abbe-43a5-4d2e-b96e-4702f065042d" cardinalidadIMin="Cero" cardinalidadIMax="N">
+            <relacionMoniker Id="7240d5ba-b7c6-4da3-9c01-186806bded0e" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="ba30a1ad-a4e8-481f-a98a-792b2da66a37" cardinalidadDMin="Cero" cardinalidadDMax="N">
+            <relacionMoniker Id="fbe5a0cf-ab50-4fec-882d-81c015a8df1d" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="0b8064fa-1a9d-4e12-a501-b3ea69c30f28">
+      <entidad Id="1ab250b5-0cbf-4165-8eb5-c48e0825d9a4" nombreEntidad="Juguete">
+        <clave>
+          <entidadHasClave Id="7d5a7502-a864-4487-a3dc-e26ba0756d5a">
+            <clave Id="d850aa98-d731-4e7d-a06f-b09551c7da6c" nombreAtributo="IDJuguete" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="904006dd-c420-4bfa-acf8-7040838dbe52">
+            <atributoEntidad Id="52c4e504-9370-4824-b815-07e9ae80e028" nombreAtributo="Cantidad" longitud="0" tipoDatos="Entero" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="2377faf1-aecb-4a19-b125-e23d74149bde">
+            <atributoEntidad Id="293d8314-b043-4285-ab21-a882c85b233a" nombreAtributo="ColoresDisponibles" longitud="50" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="826df85f-7d31-4d61-b688-5abf7cf11168">
+            <atributoEntidad Id="6a30258c-9cc2-49f3-beff-151d00d76161" nombreAtributo="Descripcion" longitud="255" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="216a64fc-fec8-401e-8692-558a54e3703a" cardinalidadIMin="Cero" cardinalidadIMax="N">
+            <relacionMoniker Id="fcc76b1f-d0f8-4ca7-91c1-80c96505c00c" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="fae5a0c5-4b96-48b2-b3a5-bf72efae031e" cardinalidadDMin="Uno" cardinalidadDMax="N">
+            <relacionMoniker Id="7240d5ba-b7c6-4da3-9c01-186806bded0e" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+  </entidad>
+  <relacioned>
+    <tapizHasRelacioned Id="9fd4b8f4-f60d-405a-a77c-aec50b7da21b">
+      <relacion Id="7240d5ba-b7c6-4da3-9c01-186806bded0e" nombreRelacion="Tiene" />
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="93725202-7aa6-4253-80af-0faac97dd4cc">
+      <relacion Id="fbe5a0cf-ab50-4fec-882d-81c015a8df1d" nombreRelacion="Envuelve">
+        <atributoRelacioned>
+          <relacionHasAtributoRelacioned Id="e34728d4-468f-4b1a-8bf4-6b34e907d002">
+            <atributoRelacion Id="1d26ee28-3427-4f66-a3cc-71f069229011" nombreAtributo="ColorPapel" longitud="0" tipoDatos="Alfanumerico" admiteNulo="false" />
+          </relacionHasAtributoRelacioned>
+          <relacionHasAtributoRelacioned Id="b2cad2f0-2232-4d97-adce-d5de10381a12">
+            <atributoRelacion Id="31811d54-4c37-4e0f-9bf1-c37df0084b2f" nombreAtributo="FechaEnvio" longitud="0" tipoDatos="Fecha" admiteNulo="false" />
+          </relacionHasAtributoRelacioned>
+        </atributoRelacioned>
+      </relacion>
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="17455342-dc71-4878-a606-32786b9d98ed">
+      <relacion Id="39b03ba7-565b-4e98-bd26-31f29a6743d0" nombreRelacion="Alimenta" />
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="d7372603-12ac-48a9-85c8-977ad2e98e2b">
+      <relacion Id="ab3bbd37-ef77-4099-bb5d-8fa2f1ea9d64" nombreRelacion="Acaricia" />
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="5603607e-daa7-4116-80c5-734e14dbe6b0">
+      <relacion Id="1cade0c3-bf29-43c4-b6bb-73afdcb56623" nombreRelacion="Conduce" />
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="e69355e6-b20c-46f6-b0d1-15d9f44c3d29">
+      <relacion Id="79d7196c-0ca3-4ff8-b364-6ad32e121dc2" nombreRelacion="Repara" />
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="962f055b-e5d5-4f80-84a5-790da4d3cc6f">
+      <relacion Id="fcc76b1f-d0f8-4ca7-91c1-80c96505c00c" nombreRelacion="Fabrica" />
+    </tapizHasRelacioned>
+  </relacioned>
+</tapiz>

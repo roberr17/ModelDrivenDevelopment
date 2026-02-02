@@ -1,0 +1,183 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="C#" hostspecific="True"#>
+<#@ output extension=".php" #>
+<#@ ANHAMMDRMLenguaje processor="ANHAMMDRMLenguajeDirectiveProcessor" requires="fileName='CentralPoloNorte.ANHAMMDRM'" #>
+<#@ include file="EF.utility.CS.ttinclude" #>
+<#
+	var fileManager = EntityFrameworkTemplateFileManager.Create(this);
+
+	foreach (Entidad entidad in this.Tapiz.Entidad)
+	{
+		string fileName = entidad.nombreEntidad + ".php";
+		fileManager.StartNewFile(fileName);
+	
+#>
+<html>
+<head>
+<title><#= entidad.nombreEntidad #></title>
+</head>
+<body bgcolor= "#B8D1F1">
+<?php
+	if (!(isset($_GET['var<#= entidad.Clave.nombreAtributo #>']))){
+?>
+<form>
+<h1><#= entidad.nombreEntidad #></h1>
+<#= entidad.Clave.nombreAtributo #> : <input name= "var<#= entidad.Clave.nombreAtributo #>" type="text" value="">
+<#	
+		foreach (AtributoEntidad atributoE in entidad.AtributoEntidad)
+		{
+			string nombreVar = "var" + atributoE.nombreAtributo;
+			string tipo = atributoE.tipoDatos.ToString();
+
+			 //Restricción Enumerada
+            if (atributoE.Restriccioned.Count > 0 && atributoE.Restriccioned[0] is RestriccionEnum)
+            {
+                RestriccionEnum restriccionE = (RestriccionEnum) atributoE.Restriccioned[0];
+#>
+<#= atributoE.nombreAtributo #>: <select name="<#= nombreVar #>" required>
+<option value="">Seleccione <#= atributoE.nombreAtributo #></option>
+<#
+                foreach (var literal in restriccionE.tiposRestriccion.Split(' '))
+                {
+#>
+<option value="<#= literal #>"><#= literal #></option>
+<#
+                }
+#>
+</select>
+<#
+            }
+            //Restricción de Rango
+            else if (atributoE.Restriccioned.Count > 0 && atributoE.Restriccioned[0] is RestriccionRango)
+            {
+                RestriccionRango restriccionR = (RestriccionRango) atributoE.Restriccioned[0];
+
+                if (tipo == "Entero" || tipo == "Real")
+                {
+#>
+<#= atributoE.nombreAtributo #>: <input name="<#= nombreVar #>" type="number" min="<#= restriccionR.valorMinimo #>" max="<#= restriccionR.valorMaximo #>">
+<#
+                }
+                else if (tipo == "Fecha")
+                {
+#>
+<#= atributoE.nombreAtributo #>: <input name="<#= nombreVar #>" type="date" min="<#= restriccionR.valorMinimo #>" max="<#= restriccionR.valorMaximo #>">
+<#
+                }
+                else
+                {
+#>
+<#= atributoE.nombreAtributo #>: <input name="<#= nombreVar #>" type="text" minlength="<#= restriccionR.valorMinimo #>" maxlength="<#= restriccionR.valorMaximo #>">
+<#
+                }
+            }
+            //Sin restricción
+            else if (tipo == "Entero" || tipo == "Real")
+            {
+#>
+<#= atributoE.nombreAtributo #>: <input name="<#= nombreVar #>" type="number">
+<#
+            }
+            else if (tipo == "Fecha")
+            {
+#>
+<#= atributoE.nombreAtributo #>: <input name="<#= nombreVar #>" type="date">
+<#
+            }
+            else
+            {
+#>
+<#= atributoE.nombreAtributo #>: <input name="<#= nombreVar #>" type="text">
+<#
+            }
+        }
+#>
+<input type="submit" value="Alta" />
+</form>
+<?php
+} else {
+    $conex = mysqli_connect("localhost","root") or die("ERROR...");
+    mysqli_select_db($conex,"GestionPoloNorte") or die("ERROR CON LA BASE DE DATOS");
+
+    $<#= entidad.Clave.nombreAtributo #> = $_GET['var<#= entidad.Clave.nombreAtributo #>'];
+<#
+        foreach (AtributoEntidad atributoE in entidad.AtributoEntidad)
+        {
+            WriteLine("    $" + atributoE.nombreAtributo + " = $_GET['var" + atributoE.nombreAtributo + "'];");
+        }
+
+        var columnas = new List<string>();
+        columnas.Add(entidad.Clave.nombreAtributo);
+        foreach (AtributoEntidad atributoE in entidad.AtributoEntidad)
+            columnas.Add(atributoE.nombreAtributo);
+
+        var valores = new List<string>();
+        valores.Add("'$" + entidad.Clave.nombreAtributo + "'");
+        foreach (AtributoEntidad atributoE in entidad.AtributoEntidad)
+        {
+            string tipo = atributoE.tipoDatos.ToString();
+            if (tipo == "Entero" || tipo == "Real")
+                valores.Add("$" + atributoE.nombreAtributo);
+            else
+                valores.Add("'$" + atributoE.nombreAtributo + "'");
+        }
+#>
+    $resultado = mysqli_query($conex,"INSERT INTO <#= entidad.nombreEntidad #> (<#= string.Join(",", columnas) #>) VALUES (<#= string.Join(",", valores) #>)");
+    if ($resultado)
+        echo "<b>Datos Insertados</b>";
+    else
+        echo "Error en la inserción";
+    mysqli_close($conex);
+}
+?>
+</body>
+</html>
+<#
+    }
+
+    foreach (Relacion relacion in this.Tapiz.Relacioned)
+    {
+        if (relacion.EntidadRI != null && relacion.EntidadRD != null &&
+            EntidadReferencesRelacionedI.GetLinkToEntidadRI(relacion).cardinalidadIMax.ToString() == "N" &&
+            EntidadReferencesRelacionedD.GetLinkToEntidadRD(relacion).cardinalidadDMax.ToString() == "N")
+        {
+            string fileName = relacion.nombreRelacion + ".php";
+            fileManager.StartNewFile(fileName);
+#>
+<html>
+<head>
+<title><#= relacion.nombreRelacion #></title>
+</head>
+<body bgcolor="#B8D1F1">
+<?php
+if (!(isset($GET['varFK<#= relacion.EntidadRI.nombreEntidad #>']))){
+?>
+<form>
+<h1><#= relacion.nombreRelacion #></h1>
+FK_<#= relacion.EntidadRI.nombreEntidad #>: <input name="varFK_<#= relacion.EntidadRI.nombreEntidad #>" type="number" value="">
+FK_<#= relacion.EntidadRD.nombreEntidad #>: <input name="varFK_<#= relacion.EntidadRD.nombreEntidad #>" type="number" value="">
+<input type="submit" value="Alta" />
+</form>
+<?php
+} else {
+    $conex = mysqli_connect("localhost","root") or die("ERROR...");
+    mysqli_select_db($conex,"GestionPoloNorte") or die("ERROR CON LA BASE DE DATOS");
+
+    $FK_<#= relacion.EntidadRI.nombreEntidad #> = $GET['varFK_<#= relacion.EntidadRI.nombreEntidad #>'];
+    $FK_<#= relacion.EntidadRD.nombreEntidad #> = $GET['varFK_<#= relacion.EntidadRD.nombreEntidad #>'];
+
+    $resultado = mysqli_query($conex,"INSERT INTO <#= relacion.nombreRelacion #> (FK_<#= relacion.EntidadRI.nombreEntidad #>,FK_<#= relacion.EntidadRD.nombreEntidad #>) VALUES ($FK_<#= relacion.EntidadRI.nombreEntidad #>,$FK_<#= relacion.EntidadRD.nombreEntidad #>)");
+    if ($resultado)
+        echo "<b>Datos Insertados</b>";
+    else
+        echo "Error en la inserción";
+    mysqli_close($conex);
+}
+?>
+</body>
+</html>
+<#
+        }
+    }
+
+    fileManager.Process();
+#>

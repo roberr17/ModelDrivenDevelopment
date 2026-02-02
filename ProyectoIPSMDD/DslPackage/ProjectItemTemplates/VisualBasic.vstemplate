@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{dc6dbe07-4e77-4d1d-8641-e3c4c33d1e99}</TemplateID>
+		<Name Package="{22f13f68-9463-472c-8e4e-89d8a68ce4e5}" ID="103"/>
+		<Description Package="{22f13f68-9463-472c-8e4e-89d8a68ce4e5}" ID="102"/>
+		<Icon Package="{22f13f68-9463-472c-8e4e-89d8a68ce4e5}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>ANHAMMDRMLenguaje.ANHAMMDRM</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.ANHAMMDRM">ANHAMMDRM.ANHAMMDRM</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.ANHAMMDRM.diagram">ANHAMMDRM.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

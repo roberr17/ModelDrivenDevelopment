@@ -1,0 +1,151 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="17.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.10318</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75B70B84-CE6D-4214-A1CE-C852D4FF5240}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Debugging</RootNamespace>
+    <AssemblyName>Debugging</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Dsl\GeneratedCode\ANHAMMDRMLenguajeSchema.xsd">
+      <Link>ANHAMMDRMLenguajeSchema.xsd</Link>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Acaricia.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Alimenta.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="CentralPoloNorte.ANHAMMDRM" />
+    <None Include="CentralPoloNorte.ANHAMMDRM.diagram">
+      <DependentUpon>CentralPoloNorte.ANHAMMDRM</DependentUpon>
+    </None>
+    <None Include="ANHAMMDRMLenguajeReport.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ANHAMMDRMLenguajeReport.txt</LastGenOutput>
+    </None>
+    <None Include="ANHAMMDRMLenguajeReportVB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ANHAMMDRMLenguajeReportVB.txt</LastGenOutput>
+    </None>
+    <None Include="Conduce.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Elfo.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Envuelve.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Fabrica.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="InformePoloNorteVariosFicheros.php">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Juguete.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="PapaNoel.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Regalos.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Reno.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Repara.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Sample.ANHAMMDRM" />
+    <None Include="Sample.ANHAMMDRM.diagram">
+      <DependentUpon>Sample.ANHAMMDRM</DependentUpon>
+    </None>
+    <None Include="Test.ANHAMMDRM" />
+    <None Include="Test.ANHAMMDRM.diagram">
+      <DependentUpon>Test.ANHAMMDRM</DependentUpon>
+    </None>
+    <None Include="Tiene.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Trineo.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+    <None Include="Yeti.php">
+      <DependentUpon>InformePoloNorteVariosFicheros.tt</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4df5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ANHAMMDRMLenguajeReport.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ANHAMMDRMLenguajeReport.tt</DependentUpon>
+    </Content>
+    <Content Include="ANHAMMDRMLenguajeReportVB.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ANHAMMDRMLenguajeReportVB.tt</DependentUpon>
+    </Content>
+    <Content Include="InformePoloNorte.sql">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformePoloNorte.tt</DependentUpon>
+    </Content>
+    <Content Include="InformePoloNorte.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>InformePoloNorte.sql</LastGenOutput>
+    </Content>
+    <Content Include="InformePoloNorteVariosFicheros.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>InformePoloNorteVariosFicheros.php</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

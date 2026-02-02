@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ANHAMMDRMLenguajeDomainModel.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ANHAMMDRMLenguaje</value>
+    <comment>Description for DslLibrary &apos;ANHAMMDRMLenguaje&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ANHAMMDRMLenguajeDomainModel.DisplayName" xml:space="preserve">
+    <value>ANHAMMDRMLenguaje</value>
+    <comment>DisplayName for DslLibrary &apos;ANHAMMDRMLenguaje&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Tapiz.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Tapiz/solucionTapiz.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Tapiz.Solucion Tapiz</value>
+    <comment>Description for DomainProperty &apos;solucionTapiz&apos; on DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Tapiz/solucionTapiz.DisplayName" xml:space="preserve">
+    <value>Solucion Tapiz</value>
+    <comment>DisplayName for DomainProperty &apos;solucionTapiz&apos; on DomainClass &apos;Tapiz&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Entidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Entidad</value>
+    <comment>Description for DomainClass &apos;Entidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainClass &apos;Entidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Entidad/nombreEntidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Entidad.Nombre Entidad</value>
+    <comment>Description for DomainProperty &apos;nombreEntidad&apos; on DomainClass &apos;Entidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Entidad/nombreEntidad.DisplayName" xml:space="preserve">
+    <value>Nombre Entidad</value>
+    <comment>DisplayName for DomainProperty &apos;nombreEntidad&apos; on DomainClass &apos;Entidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo</value>
+    <comment>Description for DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo.DisplayName" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>DisplayName for DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/nombreAtributo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo.Nombre Atributo</value>
+    <comment>Description for DomainProperty &apos;nombreAtributo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/nombreAtributo.DisplayName" xml:space="preserve">
+    <value>Nombre Atributo</value>
+    <comment>DisplayName for DomainProperty &apos;nombreAtributo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/nameTipo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo.Name Tipo</value>
+    <comment>Description for DomainProperty &apos;nameTipo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/nameTipo.DisplayName" xml:space="preserve">
+    <value>Name Tipo</value>
+    <comment>DisplayName for DomainProperty &apos;nameTipo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/longitud.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo.Longitud</value>
+    <comment>Description for DomainProperty &apos;longitud&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/longitud.DisplayName" xml:space="preserve">
+    <value>Longitud</value>
+    <comment>DisplayName for DomainProperty &apos;longitud&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/tipoDatos.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo.Tipo Datos</value>
+    <comment>Description for DomainProperty &apos;tipoDatos&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Atributo/tipoDatos.DisplayName" xml:space="preserve">
+    <value>Tipo Datos</value>
+    <comment>DisplayName for DomainProperty &apos;tipoDatos&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Clave.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Clave</value>
+    <comment>Description for DomainClass &apos;Clave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Clave.DisplayName" xml:space="preserve">
+    <value>Clave</value>
+    <comment>DisplayName for DomainClass &apos;Clave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoEntidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoEntidad</value>
+    <comment>Description for DomainClass &apos;AtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoEntidad.DisplayName" xml:space="preserve">
+    <value>Atributo Entidad</value>
+    <comment>DisplayName for DomainClass &apos;AtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Relacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Relacion</value>
+    <comment>Description for DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Relacion/nombreRelacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Relacion.Nombre Relacion</value>
+    <comment>Description for DomainProperty &apos;nombreRelacion&apos; on DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Relacion/nombreRelacion.DisplayName" xml:space="preserve">
+    <value>Nombre Relacion</value>
+    <comment>DisplayName for DomainProperty &apos;nombreRelacion&apos; on DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoRelacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoRelacion</value>
+    <comment>Description for DomainClass &apos;AtributoRelacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoRelacion.DisplayName" xml:space="preserve">
+    <value>Atributo Relacion</value>
+    <comment>DisplayName for DomainClass &apos;AtributoRelacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Restriccion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Restriccion</value>
+    <comment>Description for DomainClass &apos;Restriccion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.Restriccion.DisplayName" xml:space="preserve">
+    <value>Restriccion</value>
+    <comment>DisplayName for DomainClass &apos;Restriccion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango</value>
+    <comment>Description for DomainClass &apos;RestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango.DisplayName" xml:space="preserve">
+    <value>Restriccion Rango</value>
+    <comment>DisplayName for DomainClass &apos;RestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango/valorMinimo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango.Valor Minimo</value>
+    <comment>Description for DomainProperty &apos;valorMinimo&apos; on DomainClass &apos;RestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango/valorMinimo.DisplayName" xml:space="preserve">
+    <value>Valor Minimo</value>
+    <comment>DisplayName for DomainProperty &apos;valorMinimo&apos; on DomainClass &apos;RestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango/valorMaximo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango.Valor Maximo</value>
+    <comment>Description for DomainProperty &apos;valorMaximo&apos; on DomainClass &apos;RestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionRango/valorMaximo.DisplayName" xml:space="preserve">
+    <value>Valor Maximo</value>
+    <comment>DisplayName for DomainProperty &apos;valorMaximo&apos; on DomainClass &apos;RestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionEnum.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionEnum</value>
+    <comment>Description for DomainClass &apos;RestriccionEnum&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionEnum.DisplayName" xml:space="preserve">
+    <value>Restriccion Enum</value>
+    <comment>DisplayName for DomainClass &apos;RestriccionEnum&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionEnum/tiposRestriccion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionEnum.Tipos Restriccion</value>
+    <comment>Description for DomainProperty &apos;tiposRestriccion&apos; on DomainClass &apos;RestriccionEnum&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RestriccionEnum/tiposRestriccion.DisplayName" xml:space="preserve">
+    <value>Tipos Restriccion</value>
+    <comment>DisplayName for DomainProperty &apos;tiposRestriccion&apos; on DomainClass &apos;RestriccionEnum&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb</value>
+    <comment>Description for DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico Portal Web</value>
+    <comment>DisplayName for DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/colorFondo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Color Fondo</value>
+    <comment>Description for DomainProperty &apos;colorFondo&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/colorFondo.DisplayName" xml:space="preserve">
+    <value>Color Fondo</value>
+    <comment>DisplayName for DomainProperty &apos;colorFondo&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/texto.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Texto</value>
+    <comment>Description for DomainProperty &apos;texto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/texto.DisplayName" xml:space="preserve">
+    <value>Texto</value>
+    <comment>DisplayName for DomainProperty &apos;texto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/colorTexto.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Color Texto</value>
+    <comment>Description for DomainProperty &apos;colorTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/colorTexto.DisplayName" xml:space="preserve">
+    <value>Color Texto</value>
+    <comment>DisplayName for DomainProperty &apos;colorTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/tamañoTexto.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Tamaño Texto</value>
+    <comment>Description for DomainProperty &apos;tamañoTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/tamañoTexto.DisplayName" xml:space="preserve">
+    <value>Tamaño Texto</value>
+    <comment>DisplayName for DomainProperty &apos;tamañoTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/alineacionTexto.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Alineacion Texto</value>
+    <comment>Description for DomainProperty &apos;alineacionTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/alineacionTexto.DisplayName" xml:space="preserve">
+    <value>Alineacion Texto</value>
+    <comment>DisplayName for DomainProperty &apos;alineacionTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/tipografiaTexto.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb.Tipografia Texto</value>
+    <comment>Description for DomainProperty &apos;tipografiaTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPortalWeb/tipografiaTexto.DisplayName" xml:space="preserve">
+    <value>Tipografia Texto</value>
+    <comment>DisplayName for DomainProperty &apos;tipografiaTexto&apos; on DomainClass &apos;EstiloGraficoPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb</value>
+    <comment>Description for DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico Pagina Web</value>
+    <comment>DisplayName for DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/color.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb.Color</value>
+    <comment>Description for DomainProperty &apos;color&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/color.DisplayName" xml:space="preserve">
+    <value>Color</value>
+    <comment>DisplayName for DomainProperty &apos;color&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/tamaño.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb.Tamaño</value>
+    <comment>Description for DomainProperty &apos;tamaño&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/tamaño.DisplayName" xml:space="preserve">
+    <value>Tamaño</value>
+    <comment>DisplayName for DomainProperty &apos;tamaño&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/alineacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb.Alineacion</value>
+    <comment>Description for DomainProperty &apos;alineacion&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/alineacion.DisplayName" xml:space="preserve">
+    <value>Alineacion</value>
+    <comment>DisplayName for DomainProperty &apos;alineacion&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/tipografia.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb.Tipografia</value>
+    <comment>Description for DomainProperty &apos;tipografia&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoPaginaWeb/tipografia.DisplayName" xml:space="preserve">
+    <value>Tipografia</value>
+    <comment>DisplayName for DomainProperty &apos;tipografia&apos; on DomainClass &apos;EstiloGraficoPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario</value>
+    <comment>Description for DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico Campo De Formulario</value>
+    <comment>DisplayName for DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/color.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.Color</value>
+    <comment>Description for DomainProperty &apos;color&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/color.DisplayName" xml:space="preserve">
+    <value>Color</value>
+    <comment>DisplayName for DomainProperty &apos;color&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/tamaño.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.Tamaño</value>
+    <comment>Description for DomainProperty &apos;tamaño&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/tamaño.DisplayName" xml:space="preserve">
+    <value>Tamaño</value>
+    <comment>DisplayName for DomainProperty &apos;tamaño&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/alineacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.Alineacion</value>
+    <comment>Description for DomainProperty &apos;alineacion&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/alineacion.DisplayName" xml:space="preserve">
+    <value>Alineacion</value>
+    <comment>DisplayName for DomainProperty &apos;alineacion&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/tipografia.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.Tipografia</value>
+    <comment>Description for DomainProperty &apos;tipografia&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/tipografia.DisplayName" xml:space="preserve">
+    <value>Tipografia</value>
+    <comment>DisplayName for DomainProperty &apos;tipografia&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/formatoDeVisualizacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario.Formato De Visualizacion</value>
+    <comment>Description for DomainProperty &apos;formatoDeVisualizacion&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EstiloGraficoCampoDeFormulario/formatoDeVisualizacion.DisplayName" xml:space="preserve">
+    <value>Formato De Visualizacion</value>
+    <comment>DisplayName for DomainProperty &apos;formatoDeVisualizacion&apos; on DomainClass &apos;EstiloGraficoCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal</value>
+    <comment>Description for DomainClass &apos;AtributoNormal&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal.DisplayName" xml:space="preserve">
+    <value>Atributo Normal</value>
+    <comment>DisplayName for DomainClass &apos;AtributoNormal&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal/admiteNulo.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal.Admite Nulo</value>
+    <comment>Description for DomainProperty &apos;admiteNulo&apos; on DomainClass &apos;AtributoNormal&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal/admiteNulo.DisplayName" xml:space="preserve">
+    <value>Admite Nulo</value>
+    <comment>DisplayName for DomainProperty &apos;admiteNulo&apos; on DomainClass &apos;AtributoNormal&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal/unique.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal.Unique</value>
+    <comment>Description for DomainProperty &apos;unique&apos; on DomainClass &apos;AtributoNormal&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormal/unique.DisplayName" xml:space="preserve">
+    <value>Unique</value>
+    <comment>DisplayName for DomainProperty &apos;unique&apos; on DomainClass &apos;AtributoNormal&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad</value>
+    <comment>Description for DomainClass &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Entidad</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad/Tapiz.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad/Entidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEntidad/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;TapizHasEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave</value>
+    <comment>Description for DomainClass &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave.DisplayName" xml:space="preserve">
+    <value>Entidad Has Clave</value>
+    <comment>DisplayName for DomainClass &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave/Entidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Clave</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave/Clave.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave.Clave</value>
+    <comment>Description for DomainRole &apos;Clave&apos; on DomainRelationship &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave/Clave.DisplayName" xml:space="preserve">
+    <value>Clave</value>
+    <comment>DisplayName for DomainRole &apos;Clave&apos; on DomainRelationship &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasClave/Clave.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Clave&apos; on DomainRelationship &apos;EntidadHasClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad</value>
+    <comment>Description for DomainClass &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad.DisplayName" xml:space="preserve">
+    <value>Entidad Has Atributo Entidad</value>
+    <comment>DisplayName for DomainClass &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad/Entidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad/AtributoEntidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad.AtributoEntidad</value>
+    <comment>Description for DomainRole &apos;AtributoEntidad&apos; on DomainRelationship &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad/AtributoEntidad.DisplayName" xml:space="preserve">
+    <value>Atributo Entidad</value>
+    <comment>DisplayName for DomainRole &apos;AtributoEntidad&apos; on DomainRelationship &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadHasAtributoEntidad/AtributoEntidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoEntidad&apos; on DomainRelationship &apos;EntidadHasAtributoEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI</value>
+    <comment>Description for DomainClass &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI.DisplayName" xml:space="preserve">
+    <value>Entidad References Relacioned I</value>
+    <comment>DisplayName for DomainClass &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/cardinalidadIMin.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI.Cardinalidad IMin</value>
+    <comment>Description for DomainProperty &apos;cardinalidadIMin&apos; on DomainClass &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/cardinalidadIMin.DisplayName" xml:space="preserve">
+    <value>Cardinalidad IMin</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadIMin&apos; on DomainClass &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/cardinalidadIMax.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI.Cardinalidad IMax</value>
+    <comment>Description for DomainProperty &apos;cardinalidadIMax&apos; on DomainClass &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/cardinalidadIMax.DisplayName" xml:space="preserve">
+    <value>Cardinalidad IMax</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadIMax&apos; on DomainClass &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/Entidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Relacioned I</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/Relacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedI/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad RI</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;EntidadReferencesRelacionedI&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned</value>
+    <comment>Description for DomainClass &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned.DisplayName" xml:space="preserve">
+    <value>Relacion Has Atributo Relacioned</value>
+    <comment>DisplayName for DomainClass &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned/Relacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo Relacioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned/AtributoRelacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned.AtributoRelacion</value>
+    <comment>Description for DomainRole &apos;AtributoRelacion&apos; on DomainRelationship &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned/AtributoRelacion.DisplayName" xml:space="preserve">
+    <value>Atributo Relacion</value>
+    <comment>DisplayName for DomainRole &apos;AtributoRelacion&apos; on DomainRelationship &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.RelacionHasAtributoRelacioned/AtributoRelacion.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoRelacion&apos; on DomainRelationship &apos;RelacionHasAtributoRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD</value>
+    <comment>Description for DomainClass &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD.DisplayName" xml:space="preserve">
+    <value>Entidad References Relacioned D</value>
+    <comment>DisplayName for DomainClass &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/cardinalidadDMin.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD.Cardinalidad DMin</value>
+    <comment>Description for DomainProperty &apos;cardinalidadDMin&apos; on DomainClass &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/cardinalidadDMin.DisplayName" xml:space="preserve">
+    <value>Cardinalidad DMin</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadDMin&apos; on DomainClass &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/cardinalidadDMax.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD.Cardinalidad DMax</value>
+    <comment>Description for DomainProperty &apos;cardinalidadDMax&apos; on DomainClass &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/cardinalidadDMax.DisplayName" xml:space="preserve">
+    <value>Cardinalidad DMax</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadDMax&apos; on DomainClass &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/Entidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Relacioned D</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/Relacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.EntidadReferencesRelacionedD/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad RD</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;EntidadReferencesRelacionedD&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned</value>
+    <comment>Description for DomainClass &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Relacioned</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned/Tapiz.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Relacioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned/Relacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasRelacioned/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;TapizHasRelacioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed</value>
+    <comment>Description for DomainClass &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Estilo Grafico Portal Webbed</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed/Tapiz.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Estilo Grafico Portal Webbed</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed/EstiloGraficoPortalWeb.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed.EstiloGraficoPortalWeb</value>
+    <comment>Description for DomainRole &apos;EstiloGraficoPortalWeb&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed/EstiloGraficoPortalWeb.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico Portal Web</value>
+    <comment>DisplayName for DomainRole &apos;EstiloGraficoPortalWeb&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPortalWebbed/EstiloGraficoPortalWeb.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstiloGraficoPortalWeb&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPortalWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed</value>
+    <comment>Description for DomainClass &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Estilo Grafico Pagina Webbed</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed/Tapiz.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Estilo Grafico Pagina Webbed</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed/EstiloGraficoPaginaWeb.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed.EstiloGraficoPaginaWeb</value>
+    <comment>Description for DomainRole &apos;EstiloGraficoPaginaWeb&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed/EstiloGraficoPaginaWeb.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico Pagina Web</value>
+    <comment>DisplayName for DomainRole &apos;EstiloGraficoPaginaWeb&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoPaginaWebbed/EstiloGraficoPaginaWeb.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstiloGraficoPaginaWeb&apos; on DomainRelationship &apos;TapizHasEstiloGraficoPaginaWebbed&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios</value>
+    <comment>Description for DomainClass &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios.DisplayName" xml:space="preserve">
+    <value>Tapiz Has Estilo Grafico Campo De Formularios</value>
+    <comment>DisplayName for DomainClass &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios/Tapiz.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios.Tapiz</value>
+    <comment>Description for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios/Tapiz.DisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>DisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios/Tapiz.PropertyDisplayName" xml:space="preserve">
+    <value>Estilo Grafico Campo De Formularios</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tapiz&apos; on DomainRelationship &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios/EstiloGraficoCampoDeFormulario.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios.EstiloGraficoCampoDeFormulario</value>
+    <comment>Description for DomainRole &apos;EstiloGraficoCampoDeFormulario&apos; on DomainRelationship &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios/EstiloGraficoCampoDeFormulario.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico Campo De Formulario</value>
+    <comment>DisplayName for DomainRole &apos;EstiloGraficoCampoDeFormulario&apos; on DomainRelationship &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TapizHasEstiloGraficoCampoDeFormularios/EstiloGraficoCampoDeFormulario.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstiloGraficoCampoDeFormulario&apos; on DomainRelationship &apos;TapizHasEstiloGraficoCampoDeFormularios&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned</value>
+    <comment>Description for DomainClass &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned.DisplayName" xml:space="preserve">
+    <value>Atributo Normal Has Restriccioned</value>
+    <comment>DisplayName for DomainClass &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned/AtributoNormal.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned.AtributoNormal</value>
+    <comment>Description for DomainRole &apos;AtributoNormal&apos; on DomainRelationship &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned/AtributoNormal.DisplayName" xml:space="preserve">
+    <value>Atributo Normal</value>
+    <comment>DisplayName for DomainRole &apos;AtributoNormal&apos; on DomainRelationship &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned/AtributoNormal.PropertyDisplayName" xml:space="preserve">
+    <value>Restriccioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoNormal&apos; on DomainRelationship &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned/Restriccion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned.Restriccion</value>
+    <comment>Description for DomainRole &apos;Restriccion&apos; on DomainRelationship &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned/Restriccion.DisplayName" xml:space="preserve">
+    <value>Restriccion</value>
+    <comment>DisplayName for DomainRole &apos;Restriccion&apos; on DomainRelationship &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.AtributoNormalHasRestriccioned/Restriccion.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo Normal</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Restriccion&apos; on DomainRelationship &apos;AtributoNormalHasRestriccioned&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad/Cero.DisplayName" xml:space="preserve">
+    <value>Cero</value>
+    <comment>Display name for EnumerationLiteral &apos;Cero&apos; on DomainEnumeration &apos;TiposCardinalidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad/Cero.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad.Cero</value>
+    <comment>Description for EnumerationLiteral &apos;Cero&apos; on DomainEnumeration &apos;TiposCardinalidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad/Uno.DisplayName" xml:space="preserve">
+    <value>Uno</value>
+    <comment>Display name for EnumerationLiteral &apos;Uno&apos; on DomainEnumeration &apos;TiposCardinalidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad/Uno.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad.Uno</value>
+    <comment>Description for EnumerationLiteral &apos;Uno&apos; on DomainEnumeration &apos;TiposCardinalidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad/N.DisplayName" xml:space="preserve">
+    <value>N</value>
+    <comment>Display name for EnumerationLiteral &apos;N&apos; on DomainEnumeration &apos;TiposCardinalidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad/N.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposCardinalidad.N</value>
+    <comment>Description for EnumerationLiteral &apos;N&apos; on DomainEnumeration &apos;TiposCardinalidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/AreaDeTexto.DisplayName" xml:space="preserve">
+    <value>AreaDeTexto</value>
+    <comment>Display name for EnumerationLiteral &apos;AreaDeTexto&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/AreaDeTexto.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion.AreaDeTexto</value>
+    <comment>Description for EnumerationLiteral &apos;AreaDeTexto&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/CheckBox.DisplayName" xml:space="preserve">
+    <value>CheckBox</value>
+    <comment>Display name for EnumerationLiteral &apos;CheckBox&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/CheckBox.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion.CheckBox</value>
+    <comment>Description for EnumerationLiteral &apos;CheckBox&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/RadioButton.DisplayName" xml:space="preserve">
+    <value>RadioButton</value>
+    <comment>Display name for EnumerationLiteral &apos;RadioButton&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/RadioButton.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion.RadioButton</value>
+    <comment>Description for EnumerationLiteral &apos;RadioButton&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/ListaDesplegable.DisplayName" xml:space="preserve">
+    <value>ListaDesplegable</value>
+    <comment>Display name for EnumerationLiteral &apos;ListaDesplegable&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion/ListaDesplegable.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TipoFormatoDeVisualizacion.ListaDesplegable</value>
+    <comment>Description for EnumerationLiteral &apos;ListaDesplegable&apos; on DomainEnumeration &apos;TipoFormatoDeVisualizacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Entero.DisplayName" xml:space="preserve">
+    <value>Entero</value>
+    <comment>Display name for EnumerationLiteral &apos;Entero&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Entero.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos.Entero</value>
+    <comment>Description for EnumerationLiteral &apos;Entero&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Real.DisplayName" xml:space="preserve">
+    <value>Real</value>
+    <comment>Display name for EnumerationLiteral &apos;Real&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Real.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos.Real</value>
+    <comment>Description for EnumerationLiteral &apos;Real&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Fecha.DisplayName" xml:space="preserve">
+    <value>Fecha</value>
+    <comment>Display name for EnumerationLiteral &apos;Fecha&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Fecha.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos.Fecha</value>
+    <comment>Description for EnumerationLiteral &apos;Fecha&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Alfanumerico.DisplayName" xml:space="preserve">
+    <value>Alfanumerico</value>
+    <comment>Display name for EnumerationLiteral &apos;Alfanumerico&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos/Alfanumerico.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.TiposDeDatos.Alfanumerico</value>
+    <comment>Description for EnumerationLiteral &apos;Alfanumerico&apos; on DomainEnumeration &apos;TiposDeDatos&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEntidad.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEntidad</value>
+    <comment>Description for DomainClass &apos;MetaforaEntidad&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEntidad.DisplayName" xml:space="preserve">
+    <value>Metafora Entidad</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEntidad&apos;</comment>
+  </data>
+  <data name="MetaforaEntidadentidadDefaultText" xml:space="preserve">
+    <value>entidad</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaClave.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaClave</value>
+    <comment>Description for DomainClass &apos;MetaforaClave&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaClave.DisplayName" xml:space="preserve">
+    <value>Metafora Clave</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaClave&apos;</comment>
+  </data>
+  <data name="MetaforaClaveclaveDefaultText" xml:space="preserve">
+    <value>clave</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaAtributoE.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaAtributoE</value>
+    <comment>Description for DomainClass &apos;MetaforaAtributoE&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaAtributoE.DisplayName" xml:space="preserve">
+    <value>Metafora Atributo E</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAtributoE&apos;</comment>
+  </data>
+  <data name="MetaforaAtributoEatributoEDefaultText" xml:space="preserve">
+    <value>atributoE</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoEnombreTipoTextDecDefaultText" xml:space="preserve">
+    <value>nombreTipoTextDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoElongitudEDecDefaultText" xml:space="preserve">
+    <value>longitudEDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoEnotNullDecDefaultText" xml:space="preserve">
+    <value>notNullDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoEunicoDecDefaultText" xml:space="preserve">
+    <value>unicoDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRelacion.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRelacion</value>
+    <comment>Description for DomainClass &apos;MetaforaRelacion&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRelacion.DisplayName" xml:space="preserve">
+    <value>Metafora Relacion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRelacion&apos;</comment>
+  </data>
+  <data name="MetaforaRelacionrelacionDefaultText" xml:space="preserve">
+    <value>relacion</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaAtributoR.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaAtributoR</value>
+    <comment>Description for DomainClass &apos;MetaforaAtributoR&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaAtributoR.DisplayName" xml:space="preserve">
+    <value>Metafora Atributo R</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAtributoR&apos;</comment>
+  </data>
+  <data name="MetaforaAtributoRatributoRDefaultText" xml:space="preserve">
+    <value>atributoR</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoRnombreTipoTexDefaultText" xml:space="preserve">
+    <value>nombreTipoTex</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoRlongitudRDecDefaultText" xml:space="preserve">
+    <value>longitudRDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoRnotNuloDecDefaultText" xml:space="preserve">
+    <value>notNuloDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAtributoRunicoRDecDefaultText" xml:space="preserve">
+    <value>unicoRDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRestriccionRango.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRestriccionRango</value>
+    <comment>Description for DomainClass &apos;MetaforaRestriccionRango&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRestriccionRango.DisplayName" xml:space="preserve">
+    <value>Metafora Restriccion Rango</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRestriccionRango&apos;</comment>
+  </data>
+  <data name="MetaforaRestriccionRangovalorMaxDefaultText" xml:space="preserve">
+    <value>valorMax</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaRestriccionRangovalorMinDefaultText" xml:space="preserve">
+    <value>valorMin</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRestriccionEnum.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRestriccionEnum</value>
+    <comment>Description for DomainClass &apos;MetaforaRestriccionEnum&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaRestriccionEnum.DisplayName" xml:space="preserve">
+    <value>Metafora Restriccion Enum</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRestriccionEnum&apos;</comment>
+  </data>
+  <data name="MetaforaRestriccionEnumtiposDeDatosDefaultText" xml:space="preserve">
+    <value>tiposDeDatos</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGPortalWeb.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGPortalWeb</value>
+    <comment>Description for DomainClass &apos;MetaforaEGPortalWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGPortalWeb.DisplayName" xml:space="preserve">
+    <value>Metafora EGPortal Web</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGPortalWeb&apos;</comment>
+  </data>
+  <data name="MetaforaEGPortalWebcolorDeFondoDefaultText" xml:space="preserve">
+    <value>colorDeFondo</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPortalWebtextoDecDefaultText" xml:space="preserve">
+    <value>textoDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPortalWebcolorDelTextoDefaultText" xml:space="preserve">
+    <value>colorDelTexto</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPortalWebtamañoDelTextoDefaultText" xml:space="preserve">
+    <value>tamañoDelTexto</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPortalWebalineacionDelTextoDefaultText" xml:space="preserve">
+    <value>alineacionDelTexto</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPortalWebtipografiaDelTextoDefaultText" xml:space="preserve">
+    <value>tipografiaDelTexto</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGPaginaWeb.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGPaginaWeb</value>
+    <comment>Description for DomainClass &apos;MetaforaEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGPaginaWeb.DisplayName" xml:space="preserve">
+    <value>Metafora EGPagina Web</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="MetaforaEGPaginaWebcolorDecDefaultText" xml:space="preserve">
+    <value>colorDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPaginaWebtamañoDecDefaultText" xml:space="preserve">
+    <value>tamañoDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPaginaWebalineacionDecDefaultText" xml:space="preserve">
+    <value>alineacionDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGPaginaWebtipografiaDecDefaultText" xml:space="preserve">
+    <value>tipografiaDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGCampoDeFormulario.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGCampoDeFormulario</value>
+    <comment>Description for DomainClass &apos;MetaforaEGCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.MetaforaEGCampoDeFormulario.DisplayName" xml:space="preserve">
+    <value>Metafora EGCampo De Formulario</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGCampoDeFormulario&apos;</comment>
+  </data>
+  <data name="MetaforaEGCampoDeFormulariocolorCFDefaultText" xml:space="preserve">
+    <value>colorCF</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGCampoDeFormulariotamañoCFDefaultText" xml:space="preserve">
+    <value>tamañoCF</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGCampoDeFormularioalineacionCFDefaultText" xml:space="preserve">
+    <value>alineacionCF</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGCampoDeFormulariotipografiaCFDefaultText" xml:space="preserve">
+    <value>tipografiaCF</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEGCampoDeFormularioformatoDeVisualizaciónCFDefaultText" xml:space="preserve">
+    <value>formatoDeVisualizaciónCF</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ConectorDerecha.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ConectorDerecha</value>
+    <comment>Description for DomainClass &apos;ConectorDerecha&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ConectorDerecha.DisplayName" xml:space="preserve">
+    <value>Conector Derecha</value>
+    <comment>DisplayName for DomainClass &apos;ConectorDerecha&apos;</comment>
+  </data>
+  <data name="ConectorDerechacardinalidadDerechaMaxDefaultText" xml:space="preserve">
+    <value>cardinalidadDerechaMax</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ConectorDerechacardinalidadDerechaMinDefaultText" xml:space="preserve">
+    <value>cardinalidadDerechaMin</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ConectorIzquierda.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ConectorIzquierda</value>
+    <comment>Description for DomainClass &apos;ConectorIzquierda&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ConectorIzquierda.DisplayName" xml:space="preserve">
+    <value>Conector Izquierda</value>
+    <comment>DisplayName for DomainClass &apos;ConectorIzquierda&apos;</comment>
+  </data>
+  <data name="ConectorIzquierdacardinalidadIzquierdaMaxDefaultText" xml:space="preserve">
+    <value>cardinalidadIzquierdaMax</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="ConectorIzquierdacardinalidadIzquierdaMinDefaultText" xml:space="preserve">
+    <value>cardinalidadIzquierdaMin</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>ANHAMMDRMLenguaje (*.ANHAMMDRM)|*.ANHAMMDRM</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>ANHAMMDRMLenguaje Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ANHAMMDRMLenguajeDiagram.Description" xml:space="preserve">
+    <value>Description for IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ANHAMMDRMLenguajeDiagram</value>
+    <comment>Description for DomainClass &apos;ANHAMMDRMLenguajeDiagram&apos;</comment>
+  </data>
+  <data name="IPS.ANHAMMDRM.ANHAMMDRMLenguaje.ANHAMMDRMLenguajeDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;ANHAMMDRMLenguajeDiagram&apos;</comment>
+  </data>
+  <data name="ANHAMMDRMLenguajeToolboxTab" xml:space="preserve">
+    <value>ANHAMMDRMLenguaje</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="EntidadToolboxItem" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntidadToolboxTooltip" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ClaveToolboxItem" xml:space="preserve">
+    <value>Clave</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ClaveToolboxTooltip" xml:space="preserve">
+    <value>Clave</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AtributoEToolboxItem" xml:space="preserve">
+    <value>AtributoE</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AtributoEToolboxTooltip" xml:space="preserve">
+    <value>Atributo E</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionToolboxItem" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionToolboxTooltip" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AtributoRToolboxItem" xml:space="preserve">
+    <value>AtributoR</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AtributoRToolboxTooltip" xml:space="preserve">
+    <value>Atributo R</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RestriccionRangoToolboxItem" xml:space="preserve">
+    <value>RestriccionRango</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RestriccionRangoToolboxTooltip" xml:space="preserve">
+    <value>Restriccion Rango</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RestriccionEnumToolboxItem" xml:space="preserve">
+    <value>RestriccionEnum</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RestriccionEnumToolboxTooltip" xml:space="preserve">
+    <value>Restriccion Enum</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstiloGrafPortalWebToolToolboxItem" xml:space="preserve">
+    <value>EstiloGrafPortalWebTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstiloGrafPortalWebToolToolboxTooltip" xml:space="preserve">
+    <value>Estilo Graf Portal Web Tool</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstiloGráficoPaginaWebToolToolboxItem" xml:space="preserve">
+    <value>EstiloGráficoPaginaWebTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstiloGráficoPaginaWebToolToolboxTooltip" xml:space="preserve">
+    <value>Estilo Gráfico Pagina Web Tool</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstiloGraficoCampoDeFormularioToolToolboxItem" xml:space="preserve">
+    <value>EstiloGraficoCampoDeFormularioTool</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstiloGraficoCampoDeFormularioToolToolboxTooltip" xml:space="preserve">
+    <value>Estilo Grafico Campo De Formulario Tool</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ANHAMMDRMLenguajeConectoresToolboxTab" xml:space="preserve">
+    <value>ANHAMMDRMLenguajeConectores</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="ConectorDerechaToolboxItem" xml:space="preserve">
+    <value>ConectorDerecha</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ConectorDerechaToolboxTooltip" xml:space="preserve">
+    <value>Conector Derecha</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ConectorIzquierdaToolboxItem" xml:space="preserve">
+    <value>ConectorIzquierda</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ConectorIzquierdaToolboxTooltip" xml:space="preserve">
+    <value>Conector Izquierda</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EntidadToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Entidad.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ClaveToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Clave.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AtributoEToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Atributo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Relacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AtributoRToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\AtributoRelacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RestriccionRangoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Restriccion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RestriccionEnumToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Restriccion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstiloGrafPortalWebToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstiloGráficoPaginaWebToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstiloGraficoCampoDeFormularioToolToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ConectorDerechaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConectorDerecha.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ConectorIzquierdaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConectorIzquierda.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

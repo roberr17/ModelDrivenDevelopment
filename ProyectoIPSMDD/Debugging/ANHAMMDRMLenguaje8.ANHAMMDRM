@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tapiz xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e65452a1-66bc-408d-915b-1054bb112394" xmlns="http://schemas.microsoft.com/dsltools/ANHAMMDRMLenguaje">
+  <entidad>
+    <tapizHasEntidad Id="50e62be6-fa1a-4dec-b4b5-88a88579f8b7">
+      <entidad Id="ce2fa9ad-8157-475d-9a1b-da64d52072e4" nombreEntidad="Cliente">
+        <clave>
+          <entidadHasClave Id="ce8592b3-d8ed-49cd-b85e-c3e49e8666d8">
+            <clave Id="1c2f8593-ec38-4d8d-aa37-9f125d43eeae" nombreAtributo="IDCliente" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="503d2185-26ca-4831-85a1-00501e9e7fca">
+            <atributoEntidad Id="b7c38fbf-48e2-4d87-aede-492a960cebc1" nombreAtributo="Nombre" longitud="12" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="2ffef8b3-6b95-4867-b089-d61f023bf654">
+            <atributoEntidad Id="3b05affa-51e4-46ca-b347-e1bb6fa1b38c" nombreAtributo="Correo" longitud="0" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="b8f82b39-a0b2-4df5-bda6-606f3f69934d">
+            <atributoEntidad Id="6224cb51-5b47-4fb7-a7b0-98684717bce9" nombreAtributo="Contraseña" longitud="0" tipoDatos="Alfanumerico" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="07e9c7e1-8d58-443b-94e5-d606ef76f8ee" cardinalidadIMin="Uno" cardinalidadIMax="Uno">
+            <relacionMoniker Id="98d38325-9346-4874-9df3-2e4d4c41fb74" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="8a9e21cc-e25c-4ac5-9734-af3e779f3592">
+      <entidad Id="2027cc83-6434-4c08-b80a-0535a3f8995e" nombreEntidad="Producto">
+        <clave>
+          <entidadHasClave Id="1edcf53a-b57b-47a9-a42a-fd319b78c593">
+            <clave Id="0796fdd6-1a93-4423-97c3-ad8f6faae1be" nombreAtributo="IDProducto" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="72ebba1f-b20e-4cc9-b554-c21767f1b036">
+            <atributoEntidad Id="73232072-9c20-4236-b732-1c312f0be265" nombreAtributo="Cantidad" longitud="0" tipoDatos="Entero">
+              <restriccion>
+                <atributoEntidadHasRestriccion Id="41af69b3-3886-41e2-8174-aa4820d84ea5">
+                  <restriccionRango Id="91e9e9b3-0ac6-4548-9154-cffab822ff7b" valorMinimo="0" valorMaximo="10000" />
+                </atributoEntidadHasRestriccion>
+              </restriccion>
+            </atributoEntidad>
+          </entidadHasAtributoEntidad>
+          <entidadHasAtributoEntidad Id="2c70d90e-f3a8-4a79-b5b8-3308015a5b7e">
+            <atributoEntidad Id="3da4b6ec-71f0-4b66-824d-6cc20fd04cdd" nombreAtributo="Colores Disponibles" longitud="0" tipoDatos="Alfanumerico">
+              <restriccion>
+                <atributoEntidadHasRestriccion Id="2b97784c-8d80-48aa-92b6-1a93e79d53b0">
+                  <restriccionEnum Id="23fd15bf-f357-4478-b7f4-2b90869c41eb" tiposRestriccion="Rojo, Negro, Azul, Amarillo" />
+                </atributoEntidadHasRestriccion>
+              </restriccion>
+            </atributoEntidad>
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedI>
+          <entidadReferencesRelacionedI Id="424e47ac-f773-414a-85cb-51ef4d4bef8a" cardinalidadIMin="Cero" cardinalidadIMax="N">
+            <relacionMoniker Id="d15f9ed3-2806-4d11-9c44-48c9847dc3ef" />
+          </entidadReferencesRelacionedI>
+        </relacionedI>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="fdaf458f-7861-463e-b1ac-f1e5ceca3b0c" cardinalidadDMin="N" cardinalidadDMax="Cero">
+            <relacionMoniker Id="98d38325-9346-4874-9df3-2e4d4c41fb74" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+    <tapizHasEntidad Id="1e0ce0b3-d122-4b61-9c3f-c8ce2fc556c1">
+      <entidad Id="0c088167-b9aa-4d29-8da6-f65f410c60e7" nombreEntidad="Empleado">
+        <clave>
+          <entidadHasClave Id="7fd259b2-dda3-4448-92d8-e6940cc10679">
+            <clave Id="fbac10a7-3e17-4835-83ae-72289d630835" nombreAtributo="IDEmpleado" longitud="0" tipoDatos="Entero" />
+          </entidadHasClave>
+        </clave>
+        <atributoEntidad>
+          <entidadHasAtributoEntidad Id="22ebe029-b8da-42be-a93e-e0b87ed831d2">
+            <atributoEntidad Id="774d1b2d-82d2-4f16-8d66-7679dfc0400b" nombreAtributo="ocupacion" longitud="0" tipoDatos="Entero" />
+          </entidadHasAtributoEntidad>
+        </atributoEntidad>
+        <relacionedD>
+          <entidadReferencesRelacionedD Id="adca23e2-fc24-4142-a8f2-68ca4907aa80" cardinalidadDMin="Uno" cardinalidadDMax="N">
+            <relacionMoniker Id="d15f9ed3-2806-4d11-9c44-48c9847dc3ef" />
+          </entidadReferencesRelacionedD>
+        </relacionedD>
+      </entidad>
+    </tapizHasEntidad>
+  </entidad>
+  <relacioned>
+    <tapizHasRelacioned Id="5e9c8e3f-ede4-4d9e-824c-d6a64635a987">
+      <relacion Id="98d38325-9346-4874-9df3-2e4d4c41fb74" nombreRelacion="Compra">
+        <atributoRelacioned>
+          <relacionHasAtributoRelacioned Id="9f0f27d7-059e-4a63-b677-5f9666eb693a">
+            <atributoRelacion Id="bed5dc6d-1b68-4acf-bfb9-9a00bfde1c08" nombreAtributo="Fecha de compra" longitud="0" tipoDatos="Fecha">
+              <restriccion>
+                <atributoRelacionHasRestriccion Id="d5a9686e-84a5-4abf-a1eb-2ddfd4f75f24">
+                  <restriccionRango Id="e63f28b8-cc84-4d44-8513-091d1a752083" valorMinimo="2050" valorMaximo="2000" />
+                </atributoRelacionHasRestriccion>
+              </restriccion>
+            </atributoRelacion>
+          </relacionHasAtributoRelacioned>
+        </atributoRelacioned>
+      </relacion>
+    </tapizHasRelacioned>
+    <tapizHasRelacioned Id="8a5e270d-73fc-4a8f-8948-880ca6b5c322">
+      <relacion Id="d15f9ed3-2806-4d11-9c44-48c9847dc3ef" nombreRelacion="Almacena" />
+    </tapizHasRelacioned>
+  </relacioned>
+  <estiloGraficoPortalWebbed>
+    <tapizHasEstiloGraficoPortalWebbed Id="a047945a-641c-46df-b4b6-df46aa4bc30a">
+      <estiloGraficoPortalWeb Id="02c032c6-797f-4e54-8b69-b7c6a29f654f" colorFondo="Fondo: Blanco" texto="Portal Web Home" colorTexto="Texto: Negro" tamañoTexto="Tamaño: 12" alineacionTexto="Texto: Centrado" tipografiaTexto="Fuente: Arial" />
+    </tapizHasEstiloGraficoPortalWebbed>
+  </estiloGraficoPortalWebbed>
+  <estiloGraficoPaginaWebbed>
+    <tapizHasEstiloGraficoPaginaWebbed Id="be8b77c6-37ab-4103-a340-db9603325e9f">
+      <estiloGraficoPaginaWeb Id="8ed5bab5-5ccd-41c3-bd85-ebd6418ae0f5" color="Naranja " tamaño="12" alineacion="Texto Centrado" tipografia="Arial" />
+    </tapizHasEstiloGraficoPaginaWebbed>
+  </estiloGraficoPaginaWebbed>
+  <estiloGraficoCampoDeFormularios>
+    <tapizHasEstiloGraficoCampoDeFormularios Id="5b94ea78-afb3-4904-b578-d6dc67a1e5d8">
+      <estiloGraficoCampoDeFormulario Id="ae3bb4be-17d0-4e8e-988b-09c14625305d" color="Naranja " tamaño="100" tipografia="Arial" formatoDeVisualizacion="CheckBox" />
+    </tapizHasEstiloGraficoCampoDeFormularios>
+  </estiloGraficoCampoDeFormularios>
+</tapiz>

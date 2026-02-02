@@ -1,0 +1,132 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".sql" #>
+<#@ ANHAMMDRMLenguaje processor="ANHAMMDRMLenguajeDirectiveProcessor" requires="fileName='CentralPoloNorte.ANHAMMDRM'" #>
+
+<#
+	WriteLine("CREATE DATABASE GestionPoloNorte; \n"
+	+"USE GestionPoloNorte; \n");
+	foreach (Entidad entidad in this.Tapiz.Entidad)
+	{
+		WriteLine("CREATE TABLE IF NOT EXISTS " 
+		+ entidad.nombreEntidad 
+		+"(");
+
+		Clave clave = entidad.Clave;
+		String variable = cogerTipoVariable(clave);
+		WriteLine(clave.nombreAtributo +" "
+		+ variable 
+		+ " NOT NULL UNIQUE,");
+		foreach(AtributoEntidad atributoE in entidad.AtributoEntidad)
+		{
+			variable = cogerTipoVariable(atributoE);
+			String esUn = esUnicoEsNulo(atributoE);
+			WriteLine(atributoE.nombreAtributo + " " +variable + esUn + ",");
+
+			if(atributoE.Restriccioned.Count > 0){
+				Restriccion res = atributoE.Restriccioned[0];
+				if(res is RestriccionRango){
+					RestriccionRango restriccionR = (RestriccionRango) res;
+					WriteLine("CONSTRAINT CHECK (" 
+					+ atributoE.nombreAtributo 
+					+ " >= " + restriccionR.valorMinimo 
+					+ " AND " + atributoE.nombreAtributo 
+					+ " <= " + restriccionR.valorMaximo + "),");
+				}
+				else {
+					RestriccionEnum restriccionE = (RestriccionEnum) res;
+					string valoresSQL = separarTiposRestriccion(restriccionE.tiposRestriccion);
+					WriteLine("CONSTRAINT CHK_" + atributoE.nombreAtributo 
+					+ " CHECK (" + atributoE.nombreAtributo 
+					+ " IN (" + valoresSQL + ")),");
+				}
+			}
+		}
+		WriteLine("PRIMARY KEY ("+clave.nombreAtributo+"));");
+		WriteLine("\n");
+	}
+
+	foreach (Relacion relacion in this.Tapiz.Relacioned)
+	{
+		EntidadReferencesRelacionedI entidadIzq = EntidadReferencesRelacionedI.GetLinkToEntidadRI(relacion);
+		EntidadReferencesRelacionedD entidadDer = EntidadReferencesRelacionedD.GetLinkToEntidadRD(relacion);
+
+		if (entidadIzq != null && entidadDer != null && 
+			entidadIzq.cardinalidadIMax.ToString() == "N" && 
+			entidadDer.cardinalidadDMax.ToString() == "N")
+		{
+
+		WriteLine("CREATE TABLE IF NOT EXISTS " 
+		+ relacion.nombreRelacion
+		+"(");
+		foreach(AtributoRelacion atributoR in relacion.AtributoRelacioned)
+		{
+			String variable = cogerTipoVariable(atributoR);
+			String esUn = esUnicoEsNulo(atributoR);
+			WriteLine(atributoR.nombreAtributo + " " +variable + esUn + ",");
+			
+		}
+		Entidad ent1 = relacion.EntidadRI; 
+		Entidad ent2 = relacion.EntidadRD;
+
+		Clave pk1 = ent1.Clave;
+		Clave pk2 = ent2.Clave;
+
+		String tipo1 = cogerTipoVariable(pk1);
+		String tipo2 = cogerTipoVariable(pk2);
+
+		WriteLine("FK_" + ent1.nombreEntidad + " " + tipo1 + " NOT NULL,");
+		WriteLine("FK_" + ent2.nombreEntidad + " " + tipo2 + " NOT NULL,");
+
+		WriteLine("FOREIGN KEY (FK_" + ent1.nombreEntidad + ") REFERENCES " + ent1.nombreEntidad + "(" + pk1.nombreAtributo + "),");
+		WriteLine("FOREIGN KEY (FK_" + ent2.nombreEntidad + ") REFERENCES " + ent2.nombreEntidad + "(" + pk2.nombreAtributo + "));");
+		WriteLine("\n");
+		}
+	}
+
+#>
+
+<#+
+	string cogerTipoVariable(Atributo atributo)
+{
+    string tipo = atributo.tipoDatos.ToString();
+
+    switch (tipo)
+    {
+        case "Alfanumerico":
+            return "CHAR(" + atributo.longitud + ")";
+        case "Entero":
+            return "INTEGER";
+        case "Fecha":
+            return "DATE";
+        default:
+            return "FLOAT"; // cualquier otro valor se interpreta como FLOAT
+    }
+}
+#>
+
+<#+
+	private String esUnicoEsNulo (AtributoNormal atributoN){
+		String resul = " ";
+		if (atributoN.admiteNulo != false){
+			resul = resul + "NOT NULL";
+		}
+		if (atributoN.unique != false){
+			resul = resul + "UNIQUE";
+		}
+		return resul;
+	}
+#>
+
+<#+
+	private String separarTiposRestriccion(string tipoDatos){
+		string[] valores = tipoDatos.Split(' ');
+		string resultado = "";
+		foreach(string val in valores){
+			if (resultado.Length > 0){
+				resultado += ",";
+			}
+			resultado += "'" + val + "'";
+		}
+		return resultado;
+	}
+#>
